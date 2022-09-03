@@ -1,0 +1,26 @@
+{
+    "name": "language",
+    "version": "1.0.0",
+    "description": "this is for langauges in lead management",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Shubham Aher",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.2",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-check-expiration": "^1.0.5",
+        "jwt-decode": "^3.1.2",
+        "mongoose": "^6.2.6",
+        "multer": "^1.4.4",
+        "node-fetch": "^2.6.7",
+        "node-localstorage": "^2.2.1",
+        "nodemon": "^2.0.15",
+        "xlsx": "^0.18.5"
+    }
+}
